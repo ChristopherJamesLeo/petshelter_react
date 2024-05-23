@@ -53,8 +53,8 @@ export default function VolunteerForm(){
                                 <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
                                     <div className="form-group">
                                     <label htmlFor="state" className="mb-2 text-dark fw-semibold">State</label>
-                                        <select name="state" id="state" className="form-control rounded-1 outline-none shadow-none state">
-                                            <option value="" disabled selected>State</option>
+                                        <select name="state" defaultValue="null" id="state" className="form-control rounded-1 outline-none shadow-none state">
+                                            <option value="null" disabled >State</option>
                                             <option value="bgo">Bago</option>
                                             <option value="ygn">Yangon</option>
                                             <option value="mdy">Mandalay</option>
@@ -64,8 +64,8 @@ export default function VolunteerForm(){
                                 <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
                                     <div className="form-group">
                                     <label htmlFor="country" className="mb-2 text-dark fw-semibold">Country</label>
-                                        <select name="country" id="country" className="form-control rounded-1 outline-none shadow-none country">
-                                            <option value="" disabled selected>Country</option>
+                                        <select name="country" defaultValue="null" id="country" className="form-control rounded-1 outline-none shadow-none country">
+                                            <option value="null" disabled >Country</option>
                                             <option value="bgo">Country</option>
                                             <option value="ygn">Yangon</option>
                                             <option value="mdy">Mandalay</option>

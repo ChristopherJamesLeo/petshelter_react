@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 export default function Gallery({datas}){
 
-    console.log(datas);
+    // console.log(datas);
     
     return (
         <>

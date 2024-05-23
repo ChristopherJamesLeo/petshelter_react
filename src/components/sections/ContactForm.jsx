@@ -19,7 +19,7 @@ export default function ContactForm(){
                             {
                                 border: "0"
                             }
-                        } allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        } allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                 </div>
